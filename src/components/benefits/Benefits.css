@@ -1,0 +1,35 @@
+.benefits {
+  display: flex;
+  padding: 0 150px;
+  margin-bottom: 80px;
+  gap: 109px;
+}
+
+.benefitItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.benefitItemIconImg {
+  margin-bottom: 22px;
+  height: 32px;
+}
+
+.benefitItemTitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 119.68%;
+  margin-bottom: 15px;
+}
+
+.benefitItemDesc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188.5%;
+  letter-spacing: 0.02em;
+  color: #747474;
+}

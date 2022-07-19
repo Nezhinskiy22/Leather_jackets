@@ -1,0 +1,50 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 31px 8%;
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.headerLogoImg {
+  width: 121px;
+  flex: 1;
+  margin-right: 4rem;
+}
+
+.headerNavbar {
+  display: flex;
+  flex: 5;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 800px;
+}
+
+.headerNavbar a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+.headerIcons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.headerIcons img {
+  font-size: 12px;
+  object-fit: contain;
+  cursor: pointer;
+}
