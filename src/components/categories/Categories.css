@@ -1,0 +1,30 @@
+.categories {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.categoriesItem {
+  position: relative;
+}
+
+.categoriesItemImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.categoriesItemTitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 24px;
+  left: 49px;
+}

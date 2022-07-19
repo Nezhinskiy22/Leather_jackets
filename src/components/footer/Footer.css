@@ -1,0 +1,62 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 150px;
+}
+
+.footerLeft {
+  flex: 1;
+}
+
+.footerLogo {
+  margin-bottom: 18px;
+}
+
+.footerSocialIcons {
+  display: flex;
+  max-width: 250px;
+  justify-content: space-between;
+}
+
+.footerIconWrapper > img:hover {
+  opacity: 0.7;
+}
+
+.footerRight {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.footerList p {
+  margin: 0;
+}
+
+.footerList h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.footerList p {
+  font-family: "Jost";
+  font-style: normal;
+  list-style: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 214%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
