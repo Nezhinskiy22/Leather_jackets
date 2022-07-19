@@ -1,0 +1,59 @@
+.arrivals {
+  padding: 0 150px;
+}
+
+.arrivalsTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 57px;
+}
+
+.arrialsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.arrivalsItem {
+  width: 22%;
+  object-fit: cover;
+}
+
+.arrivalsItemImage {
+  box-shadow: 6px 3px 9px -5px rgba(34, 60, 80, 0.1);
+}
+
+.arrivalsItemData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrivalsItemTitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 177%;
+  text-transform: capitalize;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrivalsItemPrice {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 221%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #747474;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrivalsButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}

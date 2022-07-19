@@ -15,6 +15,7 @@
   width: 121px;
   flex: 1;
   margin-right: 4rem;
+  cursor: pointer;
 }
 
 .headerNavbar {

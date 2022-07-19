@@ -1,4 +1,5 @@
 import "./App.css";
+import Arrivals from "./components/arrivals/Arrivals";
 import Banner from "./components/banner/Banner";
 import Benefits from "./components/benefits/Benefits";
 import Header from "./components/header/Header";
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Banner />
       <Benefits />
-      {/* <button className="sexyButton">View all products</button> */}
+      <Arrivals />
     </div>
   );
 }
