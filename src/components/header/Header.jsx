@@ -1,40 +1,69 @@
-import React from "react";
-import Logo from "../../assets/logo.png";
-import User from "../../assets/heroicons-outline_user.png";
-import Heart from "../../assets/heroicons-outline_heart.png";
-import ShoppingBag from "../../assets/heroicons-outline_shopping-bag.png";
+import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <header className="headerContainer">
-      <div className="headerLogo">
-        <img src={Logo} alt="main" className="headerLogoImg" />
-      </div>
       <nav className="headerNavbar">
         <a href="#" className="headerLink">
-          Home
+          home
         </a>
         <a href="#" className="headerLink">
-          Shop
+          shop
         </a>
         <a href="#" className="headerLink">
-          Hoodies
+          jackets & coats
         </a>
         <a href="#" className="headerLink">
-          T-Shirts
+          hoodies & t-shirts
         </a>
         <a href="#" className="headerLink">
-          Accessories
+          pants
         </a>
         <a href="#" className="headerLink">
-          Jackets
+          boots
+        </a>
+        <a href="#" className="headerLink">
+          other
+        </a>
+        <a href="#" className="headerLink">
+          digthatthing custom
         </a>
       </nav>
-      <div className="headerIcons">
-        <img src={User} alt="User" />
-        <img src={Heart} alt="Heart" />
-        <img src={ShoppingBag} alt="ShoppingBag" />
+      <nav className={showMenu ? "headerNavbarMobile" : "disable"}>
+        <a href="#" className="headerLink">
+          home
+        </a>
+        <a href="#" className="headerLink">
+          shop
+        </a>
+        <a href="#" className="headerLink">
+          jackets & coats
+        </a>
+        <a href="#" className="headerLink">
+          hoodies & t-shirts
+        </a>
+        <a href="#" className="headerLink">
+          pants
+        </a>
+        <a href="#" className="headerLink">
+          boots
+        </a>
+        <a href="#" className="headerLink">
+          other
+        </a>
+        <a href="#" className="headerLink">
+          digthatthing custom
+        </a>
+      </nav>
+      <div className="headerNavbarMobileIcon">
+        {showMenu ? (
+          <p onClick={() => setShowMenu(false)}>Show</p>
+        ) : (
+          <p onClick={() => setShowMenu(true)}>Hide</p>
+        )}
       </div>
     </header>
   );

@@ -1,8 +1,11 @@
 .benefits {
   display: flex;
-  padding: 0 150px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
   margin-bottom: 80px;
-  gap: 109px;
+  gap: 5%;
 }
 
 .benefitItem {

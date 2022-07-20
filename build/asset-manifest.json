@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7f7ee29.css",
-    "main.js": "/static/js/main.f9670c19.js",
+    "main.css": "/static/css/main.309fbbda.css",
+    "main.js": "/static/js/main.6030e4c3.js",
     "static/js/787.a4847677.chunk.js": "/static/js/787.a4847677.chunk.js",
-    "static/media/slider.png": "/static/media/slider.d36c5701f6d0f54e4cf6.png",
+    "static/media/DTT.jpg": "/static/media/DTT.af9662f7176ea8c162c7.jpg",
     "static/media/nathan-oakley-category.png": "/static/media/nathan-oakley-category.ef168fe8519e5ca8ddec.png",
     "static/media/nathan-oakley-category3.png": "/static/media/nathan-oakley-category3.7d54e42ef84a70b9be66.png",
     "static/media/Rectangle 119 arrival.png": "/static/media/Rectangle 119 arrival.673d62b204de2bc712d1.png",
@@ -12,12 +12,12 @@
     "static/media/Rectangle 94 arrival.png": "/static/media/Rectangle 94 arrival.377a5734ed163c04f42c.png",
     "static/media/nathan-oakley-category2.png": "/static/media/nathan-oakley-category2.66248165059e13b42697.png",
     "index.html": "/index.html",
-    "main.a7f7ee29.css.map": "/static/css/main.a7f7ee29.css.map",
-    "main.f9670c19.js.map": "/static/js/main.f9670c19.js.map",
+    "main.309fbbda.css.map": "/static/css/main.309fbbda.css.map",
+    "main.6030e4c3.js.map": "/static/js/main.6030e4c3.js.map",
     "787.a4847677.chunk.js.map": "/static/js/787.a4847677.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f7ee29.css",
-    "static/js/main.f9670c19.js"
+    "static/css/main.309fbbda.css",
+    "static/js/main.6030e4c3.js"
   ]
 }

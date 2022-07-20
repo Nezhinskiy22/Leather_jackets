@@ -1,7 +1,7 @@
 .headerContainer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 31px 8%;
   position: absolute;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -11,19 +11,19 @@
   z-index: 2;
 }
 
-.headerLogoImg {
-  width: 121px;
-  flex: 1;
-  margin-right: 4rem;
-  cursor: pointer;
-}
-
 .headerNavbar {
   display: flex;
   flex: 5;
-  justify-content: flex-start;
-  gap: 2rem;
-  width: 800px;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.headerNavbarMobile {
+  display: none;
+}
+
+.headerNavbarMobileIcon {
+  display: none;
 }
 
 .headerNavbar a {
@@ -37,15 +37,95 @@
   text-transform: uppercase;
 }
 
-.headerIcons {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  gap: 3rem;
-}
-
 .headerIcons img {
-  font-size: 12px;
   object-fit: contain;
   cursor: pointer;
+}
+
+.disable {
+  display: none;
+}
+
+@media screen and (max-width: 1030px) {
+  .headerNavbar {
+    flex: 4;
+    gap: 0.8rem;
+  }
+  .headerIcons {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .headerLogoImg {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  .headerNavbar {
+    flex: 4;
+    gap: 0.8rem;
+  }
+
+  .headerNavbar a {
+    font-size: 12px;
+  }
+  .headerIcons {
+    gap: 1rem;
+  }
+  .headerIcons img {
+    width: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headerLogoImg {
+    max-width: 80px;
+    margin-right: 8px;
+  }
+  .headerContainer {
+    padding: 24px 2%;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .headerContainer {
+    align-items: start;
+    justify-content: space-between;
+  }
+  .headerNavbar {
+    display: none;
+  }
+  .headerIcons {
+    display: none;
+  }
+
+  .headerNavbarMobileIcon {
+    display: flex;
+  }
+
+  .headerNavbarMobile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 201, 201);
+    flex: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10% 0% 30% 40%;
+  }
+  .headerLink {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(92, 90, 90);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .headerNavbarMobileIcon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
 }
